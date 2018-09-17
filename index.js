@@ -8,6 +8,7 @@ require("appdynamics").profile({
  accountName: 'customer1', // CHANGEME
  accountAccessKey: 'ffffffff-ffff-ffff-ffff-ffffffffffff', //CHANGEME
  libagent: true,
+ debug: true,
  applicationName: 'NodeJS_Test',
  tierName: 'nodejs',
  nodeName: 'process'
