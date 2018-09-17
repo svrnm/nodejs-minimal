@@ -6,7 +6,8 @@ require("appdynamics").profile({
  controllerHostName: 'localhost', // CHANGEME
  controllerPort: 8090, // CHANGEME
  accountName: 'customer1', // CHANGEME
- accountAccessKey: '4b4c0344-64ba-4777-a3ac-10b143910367', //CHANGEME
+ accountAccessKey: 'ffffffff-ffff-ffff-ffff-ffffffffffff', //CHANGEME
+ libagent: true,
  applicationName: 'NodeJS_Test',
  tierName: 'nodejs',
  nodeName: 'process'
